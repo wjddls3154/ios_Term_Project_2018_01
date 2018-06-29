@@ -82,10 +82,17 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         let alertController = UIAlertController(title: "전화걸기", message: "전화를거시겠습니까? " + currentItem!, preferredStyle: .alert)
             
-        let defaultAction = UIAlertAction(title: "취소", style: .default, handler: nil)
+        let defaultAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+            
+        let callAction = UIAlertAction(title: "전화걸기", style: .default, handler: nil )
+            
+            
         alertController.addAction(defaultAction)
-        
+            alertController.addAction(callAction)
+            
+            
         present(alertController, animated: true, completion: nil)
+            
         }
     }
     
