@@ -14,6 +14,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var detailTableView: UITableView!
     @IBOutlet weak var cellImageView: UIImageView!
     
+
+
+    
     var cellImage: String = ""
     var name: String = ""
     var local1: String = ""
@@ -84,11 +87,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
         let defaultAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
             
-        let callAction = UIAlertAction(title: "전화걸기", style: .default, handler: nil )
+        let callAction = UIAlertAction(title: "전화걸기", style: .default, handler: nil
+            
+            )
+          
+        
             
             
         alertController.addAction(defaultAction)
             alertController.addAction(callAction)
+            
             
             
         present(alertController, animated: true, completion: nil)
