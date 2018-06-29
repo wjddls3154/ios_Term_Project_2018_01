@@ -20,6 +20,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var tel1: String = ""
     var menu: String = ""
     var type: String = ""
+    var price: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,15 +45,15 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
-            cell.textLabel?.text = "주소 : " + local1
+            cell.textLabel?.text = "전화번호 : " + tel1
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
-            cell.textLabel?.text = "전화번호 : " + tel1
+            cell.textLabel?.text = "메뉴 : " + menu
             return cell
         case 2:
             let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
-            cell.textLabel?.text = "메뉴 : " + menu
+            cell.textLabel?.text = "가격 : " + price
             return cell
         default :
             let cell = tableView.dequeueReusableCell(withIdentifier: "mapCell", for: indexPath) as! MapTableViewCell
