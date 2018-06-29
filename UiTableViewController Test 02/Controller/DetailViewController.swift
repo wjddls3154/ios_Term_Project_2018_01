@@ -44,9 +44,12 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         switch indexPath.row {
         case 0:
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
             cell.textLabel?.text = "전화번호 : " + tel1
             return cell
+            
+
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
             cell.textLabel?.text = "메뉴 : " + menu
@@ -61,9 +64,31 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             return cell
         }
         
-        
+  
     } 
 
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let indexPath = tableView.indexPathForSelectedRow
+      
+        print(indexPath!)
+        
+        if(indexPath! == [0, 0]){
+      
+        let currentCell = tableView.cellForRow(at: indexPath!)! as UITableViewCell
+        
+        //getting the text of that cell
+        let currentItem = currentCell.textLabel!.text
+        
+        let alertController = UIAlertController(title: "전화걸기", message: "전화를거시겠습니까? " + currentItem!, preferredStyle: .alert)
+            
+        let defaultAction = UIAlertAction(title: "취소", style: .default, handler: nil)
+        alertController.addAction(defaultAction)
+        
+        present(alertController, animated: true, completion: nil)
+        }
+    }
+    
     //
     // MARK: - Navigation
 

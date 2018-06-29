@@ -81,6 +81,8 @@ class MyTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
 //        print(indexPath.row)
 //        print(foodStoreNames[indexPath.row])
 //        print(foodStoreTel[indexPath.row])
