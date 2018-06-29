@@ -12,7 +12,6 @@
 		0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572C91720C2B39400B79406 /* TotalMapViewController.swift */; };
 		058F274720BEE6CC00271381 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F274620BEE6CC00271381 /* MapViewController.swift */; };
 		058F274A20BEE70300271381 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058F274920BEE70300271381 /* MapKit.framework */; };
-		14262D6120E0C7A400BB0259 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14262D6020E0C7A400BB0259 /* CustomButton.swift */; };
 		14262D6520E0C91A00BB0259 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14262D6420E0C91A00BB0259 /* PlusViewController.swift */; };
 		641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A0F0420BBDA36004ECC5A /* DetailViewController.swift */; };
 		648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */; };
@@ -29,7 +28,6 @@
 		0572C91720C2B39400B79406 /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
 		058F274620BEE6CC00271381 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		058F274920BEE70300271381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		14262D6020E0C7A400BB0259 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = "../../YJCalculator-master/YJCalculator/CustomButton.swift"; sourceTree = "<group>"; };
 		14262D6420E0C91A00BB0259 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		641A0F0420BBDA36004ECC5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				05BEBCF320CEB1B7007033AD /* View */,
 				05BEBCF220CEB189007033AD /* Model */,
 				741C17E420AC061400FE6E1E /* AppDelegate.swift */,
-				14262D6020E0C7A400BB0259 /* CustomButton.swift */,
 				741C17EB20AC061400FE6E1E /* Assets.xcassets */,
 				741C17F020AC061400FE6E1E /* Info.plist */,
 			);
@@ -206,7 +203,6 @@
 			files = (
 				741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */,
 				648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */,
-				14262D6120E0C7A400BB0259 /* CustomButton.swift in Sources */,
 				0572C91820C2B39400B79406 /* TotalMapViewController.swift in Sources */,
 				0572C91620C26BB100B79406 /* MapTableViewCell.swift in Sources */,
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
