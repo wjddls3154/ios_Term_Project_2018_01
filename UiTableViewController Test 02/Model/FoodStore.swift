@@ -2,9 +2,7 @@
 //  FoodStore.swift
 //  UiTableViewController Test 02
 //
-//  Created by amadeus on 2018. 6. 11..
-//  Copyright © 2018년 lse. All rights reserved.
-//
+
 
 import Foundation
 class FoodStore {
@@ -26,6 +24,7 @@ class FoodStore {
         self.menu = menu
         self.type = type
         self.price = price
+        
     }
     
 //    convenience init() {
